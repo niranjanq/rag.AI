@@ -59,4 +59,4 @@ A Streamlit-based AI assistant that allows users to upload a PDF document and as
 
 📬 Contact
 For questions or suggestions, contact: npniranjan2001@gmail.com
-Do visit on: https://askmydocsai.streamlit.app/
+* Do visit on: https://askmydocsai.streamlit.app/
