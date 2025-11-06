@@ -65,7 +65,7 @@ if upload_file:
             with st.chat_message("user"):
                 st.write(user_input)
             with st.spinner("Thinking..."):
-                relevant_doc=retriever.get_relevant_documents(user_input)
+                relevant_doc=retriever.invoke(user_input)
                 context="\n\n".join([doc.page_content for doc in relevant_doc])
                 prompt=f'''You are expert assisatnt. Use the context below to answer the query. If Unsure or information not available 
                 in the doc,pass the message- "Information is not available. Look into other sources"
