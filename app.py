@@ -8,7 +8,7 @@ from langchain_core.documents import Document
 
 from PyPDF2 import PdfReader
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 
 
