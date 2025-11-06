@@ -4,7 +4,7 @@ load_dotenv()
 import os
 import google.generativeai as genai
 
-from langchain.schema import Document # Schema created in backend by langchain
+from langchain_core.documents import Document
 
 from PyPDF2 import PdfReader
 from langchain_huggingface import HuggingFaceEmbeddings
